@@ -1,0 +1,20 @@
+# Ignore frontend static files since they go to AWS S3, not the Docker container
+frontend/
+
+# Ignore database and setup scripts
+database.sql
+setup.sh
+
+# Ignore documentation
+README.md
+viva.md
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore local environment files
+.env
+venv/
+env/
